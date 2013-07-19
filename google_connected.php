@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	require_once('config.php');
 	require_once ('social_library/google/Google_Client.php');
 	$client = new Google_Client();
 	$client->setApplicationName('Google Contacts PHP Sample');
